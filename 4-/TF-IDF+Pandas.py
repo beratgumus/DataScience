@@ -2,6 +2,7 @@ import os
 import numpy as np
 import pandas as pd
 import string
+import math
 
 
 # You can use the maketrans() helper function in the string module to create a translation table.
@@ -49,7 +50,35 @@ for i in range(docsize):
 
 print(termfreq.shape)
 
+# A Data frame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
 tdf_idf_pd = pd.DataFrame(termfreq, columns=documents, index=vocabulary)
 print(tdf_idf_pd.head())
 
 print(tdf_idf_pd['people/DonaldTrump.txt'].sort_values(ascending=False))
+
+
+# idf = log(total number of documents/ number of documents containing our term)
+def idf(row):
+    n_doc = len(row)
+    docfreq = np.count_nonzero(row[:])
+    return math.log(float(n_doc) / docfreq)
+
+
+# Dataframe.loc:  Purely label-location based indexer for selection by label.
+for i in range(vocsize):
+    row = tdf_idf_pd.loc[vocabulary[i]]
+    tdf_idf_pd.loc[vocabulary[i]] = row * idf(row)
+
+print(tdf_idf_pd.head())
+print(tdf_idf_pd['people/DonaldTrump.txt'].sort_values(ascending=False))
+
+
+def l2_norm(a):
+    return math.sqrt(np.dot(a, a))
+
+
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (l2_norm(a) * l2_norm(b))
+
+
+print(cosine_similarity(tdf_idf_pd['people/BarackObama.txt'], tdf_idf_pd['people/DonaldTrump.txt']))
