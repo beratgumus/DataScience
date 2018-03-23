@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b7a9f8-7c85-410e-aeeb-9e29f28d51fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/4-/TF-IDF+Pandas.py" afterPath="$PROJECT_DIR$/4-/TF-IDF+Pandas.py" />
+      <change beforePath="$PROJECT_DIR$/3-ClosestLoc/ClosestLoc.py" afterPath="$PROJECT_DIR$/3-Closest Location/ClosestLoc.py" />
+      <change beforePath="$PROJECT_DIR$/4-/TF-IDF+Pandas.py" afterPath="$PROJECT_DIR$/4-Document Similarity/TF-IDF+Pandas.py" />
+      <change beforePath="$PROJECT_DIR$/4-/people/AngelinaJolie.txt" afterPath="$PROJECT_DIR$/4-Document Similarity/people/AngelinaJolie.txt" />
+      <change beforePath="$PROJECT_DIR$/4-/people/BarackObama.txt" afterPath="$PROJECT_DIR$/4-Document Similarity/people/BarackObama.txt" />
+      <change beforePath="$PROJECT_DIR$/4-/people/BradPitt.txt" afterPath="$PROJECT_DIR$/4-Document Similarity/people/BradPitt.txt" />
+      <change beforePath="$PROJECT_DIR$/4-/people/DonaldTrump.txt" afterPath="$PROJECT_DIR$/4-Document Similarity/people/DonaldTrump.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +27,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TF-IDF+Pandas.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4-/TF-IDF+Pandas.py">
+        <entry file="file://$PROJECT_DIR$/4-Document Similarity/TF-IDF+Pandas.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
               <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
@@ -124,17 +129,17 @@
             <path>
               <item name="DataScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataScience" type="462c0819:PsiDirectoryNode" />
-              <item name="3-ClosestLoc" type="462c0819:PsiDirectoryNode" />
+              <item name="3-Closest Location" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataScience" type="462c0819:PsiDirectoryNode" />
-              <item name="4-" type="462c0819:PsiDirectoryNode" />
+              <item name="4-Document Similarity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataScience" type="462c0819:PsiDirectoryNode" />
-              <item name="4-" type="462c0819:PsiDirectoryNode" />
+              <item name="4-Document Similarity" type="462c0819:PsiDirectoryNode" />
               <item name="people" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,13 +301,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.076017134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.076017134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16701461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -341,7 +345,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4-/TF-IDF+Pandas.py">
+    <entry file="file://$PROJECT_DIR$/4-Document Similarity/TF-IDF+Pandas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -351,7 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-/TF-IDF+Pandas.py">
+    <entry file="file://$PROJECT_DIR$/4-Document Similarity/TF-IDF+Pandas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -396,7 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-ClosestLoc/ClosestLoc.py">
+    <entry file="file://$PROJECT_DIR$/3-Closest Location/ClosestLoc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-388">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -407,6 +411,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -426,7 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-/TF-IDF+Pandas.py">
+    <entry file="file://$PROJECT_DIR$/4-Document Similarity/TF-IDF+Pandas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
