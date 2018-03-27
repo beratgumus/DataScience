@@ -50,4 +50,27 @@ print(deadAndHasRelatives.head())
 
 deadAndHasRelativesGroupingByClass = deadAndHasRelatives.groupby('Pclass').Survived.count()
 print(deadAndHasRelativesGroupingByClass)
-#deadAndHasRelativesGroupingByClass.plot(kind='bar')
+# deadAndHasRelativesGroupingByClass.plot(kind='bar')
+
+deadGroupingByclass = df[df.Survived == 0].groupby('Pclass').PassengerId.count()
+print(deadGroupingByclass)
+
+# # Gemideki kurtulamayan ve dışarda akrabaları olan kişilerin, kurtulamayanlar arasındaki siniflara gore oransal
+# dağılımı için
+percentange = deadAndHasRelativesGroupingByClass / deadGroupingByclass
+print(percentange)
+# percentange.plot(kind ='bar')
+
+age_bin = [0, 18, 25, 40, 60, 100]
+ageIntervalAsSeries = pd.cut(df.Age, bins=age_bin)
+print(ageIntervalAsSeries.head())
+
+# bu yaş aralık serisini yeni bir sütun olarak ekler
+df['AgeBin'] = ageIntervalAsSeries
+print(df.head())
+
+df_AgeWithoutNull = df[df.Age.notnull()]
+# Hayata kalan kişilerin yaş aralıklarına göre sayısını bulmak için
+aliveGroupingByAgeInterval = df_AgeWithoutNull.groupby('AgeBin').Survived.sum()
+print(aliveGroupingByAgeInterval)
+aliveGroupingByAgeInterval.plot(kind='pie')
