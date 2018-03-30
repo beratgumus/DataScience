@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('https://raw.githubusercontent.com/agconti/kaggle-titanic/master/data/train.csv')
@@ -61,6 +60,7 @@ percentange = deadAndHasRelativesGroupingByClass / deadGroupingByclass
 print(percentange)
 # percentange.plot(kind ='bar')
 
+#  pd.cut: Return indices of half-open bins to which each value of x belongs.
 age_bin = [0, 18, 25, 40, 60, 100]
 ageIntervalAsSeries = pd.cut(df.Age, bins=age_bin)
 print(ageIntervalAsSeries.head())
