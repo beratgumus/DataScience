@@ -13,7 +13,8 @@ for line in f:
             for i in range(len(word)):
                 if word[i] not in harf_pos_freq:
                     harf_pos_freq[word[i]] = [0] * 30
-                harf_pos_freq[word[i]][i] += 1
+                else:
+                    harf_pos_freq[word[i]][i] += 1
 
 
 # for k in sorted(harf_pos_freq):
