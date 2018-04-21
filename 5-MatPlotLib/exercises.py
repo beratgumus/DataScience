@@ -64,3 +64,11 @@ plt.show()
 # aynı scatterplot ancak Avrupa ülkeleri dışındakiler kırmızı kalsın
 colors = np.where(drinks.continent == 'EU', 'r', 'b')
 print(colors)
+
+drinks.plot(x="beer_servings", y="wine_servings", kind="scatter", c=colors)
+plt.show()
+
+drinks.beer_servings.plot(kind='hist', bins=20, title='Histogram of Beer Servings')
+plt.xlabel('Beer Servings')
+plt.ylabel('Frequency')
+plt.savefig('beer_histogram.png')
